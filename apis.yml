@@ -41,6 +41,8 @@ apis:
       - type: x-api-endpoint
         url: https://www.governoaberto.sp.gov.br/api/3/action/status_show
 common:
+  - type: DomainSecurity
+    url: security/governoaberto-sp-gov-br-domain-security.yml
   - type: Website
     url: https://www.governoaberto.sp.gov.br
   - type: Documentation
